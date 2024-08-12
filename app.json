@@ -8,6 +8,20 @@
       "expo-router"
     ],
     "name": "reactNative",
-    "slug": "reactNative"
+    "slug": "reactNative",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "967448cf-b9ee-4282-851f-21cf7d1fe1bd"
+      }
+    },
+    "android": {
+      "package": "com.abelbejiga.reactNative"
+    },
+    "ios": {
+      "bundleIdentifier": "com.abelbejiga.reactNative"
+    }
   }
 }
